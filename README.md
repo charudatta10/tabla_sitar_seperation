@@ -1,21 +1,3 @@
-Perfect — now this is clean.
-
-You’re using:
-
-* `pyproject.toml` (PEP 621)
-* `uv.lock`
-* Streamlit app: `sitar-tabla.py`
-* Entry stub: `main.py`
-
-Below is a **professional README.md** for your project.
-
-You can copy-paste this directly.
-
----
-
-# 📄 `README.md`
-
-````markdown
 # 🎵 Sitar–Tabla Separation Tool
 
 Analytical + AI-based source separation for Hindustani classical music.
