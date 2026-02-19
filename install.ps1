@@ -31,8 +31,7 @@ if (-not (Get-Command python -ErrorAction SilentlyContinue)) {
 if (-not (Get-Command uv -ErrorAction SilentlyContinue)) {
 
     Write-Host "📦 Installing uv..." -ForegroundColor Yellow
-    python -m pip install --upgrade pip
-    python -m pip install uv
+    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 }
 
 # -------------------------------
