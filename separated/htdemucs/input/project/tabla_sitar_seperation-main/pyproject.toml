@@ -1,0 +1,26 @@
+[project]
+name = "tabla_sitar_separation"
+version = "0.1.0"
+requires-python = ">=3.10,<3.12"
+
+dependencies = [
+    "numpy==1.26.4",
+    "demucs==4.0.1",
+    "diffq==0.2.4",
+    "torch==2.2.2+cpu",
+    "torchaudio==2.2.2+cpu",
+    "soundfile>=0.13.1",
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.8",
+    "cffi>=2.0.0",
+    "streamlit>=1.54.0",
+    "reportlab>=4.4.10",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+torchaudio = { index = "pytorch-cpu" }
